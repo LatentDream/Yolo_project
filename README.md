@@ -1,2 +1,2 @@
-# Yolo_project
+# Yolo Project
 Live detection and transfer learning
