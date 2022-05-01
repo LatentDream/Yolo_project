@@ -49,7 +49,7 @@ from : <https://pjreddie.com/darknet/yolo/>
 Put the file in the darknet/ folder
 
 # Training the model for transfer learning 
-It was done on Colab Pro with a Tesla P100-PCIE GPU due to Library issues when compiling Darknet my windows machine
+It was done on Colab Pro with a Tesla P100-PCIE GPU due to Library issues when compiling Darknet on my windows machine
 
 ## Setup
 
@@ -71,7 +71,7 @@ It was done on Colab Pro with a Tesla P100-PCIE GPU due to Library issues when c
 
 4. Compile Darknet
 
-\# Compile Darknet with GPU=1 CUDNN=1 CUDNN_HALF=1 OPENCV=1 in the Makefile (or use the same settings with Cmake)
+Compile Darknet with GPU=1 CUDNN=1 CUDNN_HALF=1 OPENCV=1 in the Makefile (or use the same settings with Cmake)
 
 ```
 !sed -i 's/OPENCV=0/OPENCV=1/g' Makefile
